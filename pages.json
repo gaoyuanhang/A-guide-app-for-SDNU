@@ -1,0 +1,625 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		}, {
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/meishi/meishiinfo",
+			"style": {
+				"navigationBarTitleText": "美食",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+									// 将回弹属性关掉
+									"bounce":"none"
+								}
+			}
+		},{
+			"path": "pages/xueshu/index",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/1",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/2",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/3",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/4",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/5",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/6",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/7",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/8",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/9",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/xueshuinfo/10",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaowen/index",
+			"style": {
+				"navigationBarTitleText": "学术师大",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/1",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/2",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/3",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/4",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/5",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/6",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/10",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/7",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/11",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/8",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},{
+			"path": "pages/yaoweninfo/9",
+			"style": {
+				"navigationBarTitleText": "师大要闻",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "pages/take-foods/take-foods",
+			"style": {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "奈雪乐园",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}
+	    ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/remark/remark",
+            "style" : {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/packages/index",
+            "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/packages/detail",
+            "style" : {
+				"navigationBarTitleText": "购买劵包",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/balance/balance",
+            "style" : {
+				"navigationBarTitleText": "会员储值",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+				"navigationBarTitleText": "我的地址",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/address/add",
+            "style" : {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/integrals/integrals",
+            "style" : {
+				"navigationStyle":"custom",
+				"onReachBottomDistance": 50
+			}
+        }
+        ,{
+            "path" : "pages/attendance/attendance",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/orders/orders",
+            "style" : {
+				"navigationBarTitleText": "历史订单",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+        }
+        ,{
+            "path" : "pages/orders/detail",
+            "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/mine/member-code",
+            "style" : {
+				"navigationBarTitleText": "会员码",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/coupons/coupons",
+            "style" : {
+				"navigationBarTitleText": "我的卡券",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/mine/userinfo",
+            "style" : {
+				"navigationBarTitleText": "用户信息",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        },
+		{
+		    "path" : "pages/integrals/flow",
+		    "style" : {
+				"navigationBarTitleText": "积分明细",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/integrals/detail",
+		    "style" : {
+				"navigationBarTitleText": "兑换详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}
+        ,{
+            "path" : "pages/review/review",
+            "style" : {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/activities/invite",
+            "style" : {
+				"navigationBarTitleText": "师大爆料",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/services/services",
+            "style" : {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/invoice/invoice",
+            "style" : {
+				"navigationBarTitleText": "奈雪の茶",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/services/help-center",
+            "style" : {
+				"navigationBarTitleText": "帮助中心",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "pages/giftcard/giftcard",
+            "style" : {
+				"navigationBarTitleText": "礼品卡列表",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"disableScroll": true
+			}
+        }
+        ,{
+            "path" : "pages/invite/invite",
+            "style" : {
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": "垂直排列，无略缩图，主标题+副标题显示"
+            }
+            
+        },
+		{
+		    "path" : "pages/road/road",
+		    "style" : {
+				"navigationBarTitleText": "路线推荐",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info2",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info3",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info4",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info5",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info6",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info7",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info8",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info9",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info10",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info11",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info12",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/info/info13",
+		    "style" : {
+				"navigationBarTitleText": "校友芳华",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+		// #ifdef APP-PLUS
+		, {
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		}
+		// #endif
+		, {
+			"path": "pages/invited-user/invited-user",
+			"style": {
+				"navigationBarTitleText": "受邀用户"
+			}
+		}
+		,{
+		    "path" : "pages/user/page1/page1",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/user/page2/page2",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/user/page3/page3",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/user/page4/page4",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/user/page5/page5",
+		    "style" : {}
+		}
+		,{
+		    "path" : "pages/user/page6/page6",
+		    "style" : {}
+		}
+		
+		    ,{
+		        "path" : "pages/library/library",
+		        "style" : {}
+		    }
+		    ,{
+		        "path" : "pages/hospital/hospital",
+		        "style" : {}
+		    }
+		    ,{
+		        "path" : "pages/square/square",
+		        "style" : {}
+		    }
+			,{
+			    "path" : "pages/map/index",
+			    "style" : {}
+			}
+		    ,{
+		        "path" : "pages/cainiao/cainiao",
+		        "style" : {}
+		    }
+		    ,{
+		        "path" : "pages/carteen1/carteen1",
+		        "style" : {}
+		    }
+		    ,{
+		        "path" : "pages/gymnasium/gymnasium",
+		        "style" : {}
+		    }
+		    ,{
+		        "path" : "pages/carteen2/carteen2",
+		        "style" : {}
+		    }
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "山东师范大学",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#919293",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, 
+		 {
+			"pagePath": "pages/map/index",
+			"text": "地图",
+			"iconPath": "static/pic1.png",
+			"selectedIconPath": "static/pic2.png"
+		},
+		{
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	}
+}
